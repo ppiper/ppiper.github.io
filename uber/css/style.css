@@ -1,240 +1,263 @@
-body,html {
-	font-family: 'clan-book', 'Roboto', sans-serif;
+body, html {
+    font-family: 'clan-book', 'Roboto', sans-serif;
 }
 
 h1 {
-	font-family: 'clan-med', 'Roboto', sans-serif;
+    font-family: 'clan-med', 'Roboto', sans-serif;
 }
 
 h2 {
-	font-family: 'clan-med', 'Roboto', sans-serif;
+    font-family: 'clan-med', 'Roboto', sans-serif;
 }
 
 h1::after {
-content : « »;
-display : block »
-width: 50px;
-border-bottom : solid 3px blue;
-margin: 30px auto;
-
+    content:"";
+    display: block;
+		width: 50px;
+    border-bottom: solid 3px #1FBAD6;
+    margin: 30px auto;
 }
+
 
 /* NAVBAR */
 
 .navbar-default {
-	background-color: #FFFFFF;
-	border: none;
+    background-color: #FFFFFF;
+    border: none;
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: #333333;
-	font-weight: 700;
-	font-size: 12px;
-	text-transform: uppercase;
+    color: #333333;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
 }
 
-.navbar-default .navbar-nav>li.active>a,
-.navbar-default .navbar-nav>li>a:hover {
-	color: #1FBAD6;
-	background-color: #FFFFFF;
+.navbar-default .navbar-nav>li.active>a, .navbar-default .navbar-nav>li>a:hover {
+    color: #1FBAD6;
+    background-color: #FFFFFF;
 }
 
-.navbar-brand > img {
-	height: 22px;
+.navbar-brand>img {
+    height: 22px;
 }
+
 
 /* hero */
 
 .hero {
-	width: 100%;
-	height: 100vh;
-	background-image: url("../img/hero-bg-1.jpg");
-	background-position: center;
-	background-size: cover;
-	position: relative;
-	padding-top: 100px;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/hero-bg-1.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-top: 100px;
 }
 
 .hero-color {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-color: #333333;
-	opacity: 0.7;
-	top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #333333;
+    opacity: 0.7;
+    top: 0;
 }
 
 .hero-cta {
-	text-align: right;
-	margin-top: 30vh;
-	color: #FFFFFF;
+    text-align: right;
+    margin-top: 30vh;
+    color: #FFFFFF;
 }
 
 .hero-cta p {
-	font-size: 18px;
+    font-size: 18px;
 }
 
 .hero-phone {
-	margin-top: 3vh;
-	max-height: 80vh;
-	padding-left: 50px;
+    margin-top: 3vh;
+    max-height: 80vh;
+    padding-left: 50px;
 }
 
 .btn-cta {
-	font-size: 15px;
-	padding: 15px 30px;
-	border-radius: 30px;
-	text-transform: uppercase;
-	margin: 20px 0 0 20px;
-	line-height: 15px;
+    font-size: 15px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    margin: 20px 0 0 20px;
+    line-height: 15px;
 }
 
 .btn-cta-white {
-	background-color: #FFFFFF;
-	color: #1FBAD6;
+    background-color: #FFFFFF;
+    color: #1FBAD6;
 }
 
 .btn-cta-outline {
-	background-color: transparent;
-	border: solid 2px #FFFFFF;
-	padding: 14px 29px;
+    background-color: transparent;
+    border: solid 2px #FFFFFF;
+    padding: 14px 29px;
 }
 
 .btn-cta-outline:hover {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 
+
 /* section */
+
 .section {
-	/*text-align: center;*/
-	padding: 80px;
-	/*vertical-align: middle;*/
+    /*text-align: center;*/
+    padding: 80px;
+    /*vertical-align: middle;*/
 }
 
 .section h3 {
-	font-size: 25px;
+    font-size: 25px;
 }
 
 #fonctionnement i {
-	font-size: 40px;
-	color : #1FBAD6;
+    font-size: 40px;
+    color: #1FBAD6;
 }
 
 .fonct {
-	text-align: center;
+    text-align: center;
 }
 
 #application {
-	display : block;
+    display: block;
 }
 
 .title {
-	text-align: center;
-	padding: 50px;
-
+    text-align: center;
+    padding: 50px;
 }
 
-.title >h2 {
-	font-weight: bold;
-	font-size: 40px;
-	margin-bottom: 50px;
+.title>h2 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 50px;
 }
 
-
-.title >h2::after{
-content : "";
-display : block;
-width: 50px;
-border-bottom : solid 3px #1FBAD6;
-margin: 30px auto;
+.title>h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    border-bottom: solid 3px #1FBAD6;
+    margin: 30px auto;
 }
-
-
-
 
 #application .app {
-	text-align: right;
-	position: relative;
+    text-align: right;
+    position: relative;
 }
 
-#application .application-left,.application-right {
-	margin-top: 80px;
+#application .application-left, .application-right {
+    margin-top: 80px;
 }
 
-#application .application-left > div {
-	text-align: right;
-	margin-right: 30px;
-
+#application .application-left>div {
+    text-align: right;
+    margin-right: 30px;
 }
 
-#application .application-right > div {
-	text-align: left;
-	margin-left: 30px;
-
+#application .application-right>div {
+    text-align: left;
+    margin-left: 30px;
 }
 
 #application i {
-	position : absolute;
-	color: #1FBAD6;
-	font-size: 30px;
+    position: absolute;
+    color: #1FBAD6;
+    font-size: 30px;
 }
 
 #application .application-left i {
-	right: -50px;
-	top: 10px;
+    right: -50px;
+    top: 10px;
 }
 
 #application .application-right i {
-	left: -50px;
-	top: 10px;
+    left: -50px;
+    top: 10px;
 }
 
-
 #application h4 {
-	padding: 10px 0 10px 0;
+    padding: 10px 0 10px 0;
 }
 
 #application p {
-	margin-bottom: 40px;
-	/*margin-left: 10px;
+    margin-bottom: 40px;
+    /*margin-left: 10px;
 	margin-right: 20px;*/
 }
 
 #application img {
-	margin: auto;
-
+    margin: auto;
 }
 
 #Temoignages img {
-	border-radius: 50%;
-	margin:0 auto;
-	border: 5px solid #BCEAF3;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 5px solid #BCEAF3;
 }
 
 #Temoignages .item {
-	padding: 150px;
+    padding: 150px;
 }
 
-#Temoignages .item p{
-	color: black;
-	text-shadow: none;
-	font-family: clan-book;
+#Temoignages .item p {
+    color: black;
+    text-shadow: none;
+    font-family: clan-book;
 }
 
 .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
-	color: #1FBAD6;
-
+    color: #1FBAD6;
 }
 
 .carousel-control.left, .carousel-control.right {
-	background: none;
+    background: none;
 }
 
 .carousel-indicators .active {
     background-color: white;
-		border:1px solid #1cbef1;
+    border: 1px solid #1cbef1;
 }
 
 .carousel-indicators li {
     background-color: #1cbef1;
+}
+
+@media (max-width: 768px) {
+    #accueil h1, #accueil p {
+        text-align: center;
+        display: block;
+    }
+    .btn-cta {
+        margin: 20px 0 20px 0;
+    }
+    #fonctionnement h3, #fonctionnement p {
+        text-align: center;
+        display: block;
+    }
+    #fonctionnement p {
+        margin: 0 -80px;
+        padding: 20px;
+    }
+    #application h2, #application h5, #application h4, #application p {
+        text-align: center;
+        display: block;
+        margin: 0 -80px;
+        padding: 10px;
+    }
+    #application h4 {
+        font-size: 24px;
+    }
+    #application .application-right i, #application .application-left i {
+        position: static;
+        top: 0;
+    }
 }
