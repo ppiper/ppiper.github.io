@@ -109,12 +109,17 @@ h1::after {
 
 .section {
     /*text-align: center;*/
-    padding: 80px;
+    /*padding: 80px;*/
     /*vertical-align: middle;*/
 }
 
 .section h3 {
     font-size: 25px;
+}
+
+/*AJOUT XAVIER*/
+#fonctionnement .fonct:first-child {
+    margin-top: 50px;
 }
 
 #fonctionnement i {
@@ -232,6 +237,12 @@ h1::after {
 }
 
 @media (max-width: 768px) {
+
+    /*AJOUT XAVIER*/
+    .hero-cta {
+        text-align: center;
+        margin-top: 0;
+    }
     #accueil h1, #accueil p {
         text-align: center;
         display: block;
@@ -244,14 +255,19 @@ h1::after {
         display: block;
     }
     #fonctionnement p {
-        margin: 0 -80px;
+        margin: 0 0 50px 0;
         padding: 20px;
     }
     #application h2, #application h5, #application h4, #application p {
         text-align: center;
         display: block;
-        margin: 0 -80px;
+        /*margin: 0 -80px;*/
         padding: 10px;
+    }
+    #application .application-left>div,
+    #application .application-right>div {
+        text-align: center;
+        margin: 0 0 50px 0;
     }
     #application h4 {
         font-size: 24px;
@@ -259,5 +275,10 @@ h1::after {
     #application .application-right i, #application .application-left i {
         position: static;
         top: 0;
+    }
+
+    /*AJOUT XAVIER*/
+    #Temoignages img {
+        margin: -150px 0 0 0;
     }
 }
