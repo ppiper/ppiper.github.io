@@ -97,20 +97,16 @@ h1::after {
     padding: 15px 30px;
     border-radius: 30px;
     text-transform: uppercase;
-    margin: 20px 0 0 20px;
+    margin: 20px 10px 0 20px;
     height: 7vh;
     border-color: #1FBAD6;
-}
-
-.input-group .form-control {
-    width: 92%;
 }
 
 
 .input-group button {
     font-size: 15px;
     padding: 7px 40px;
-    border-radius: 30px;
+    /*border-radius: 30px,30px,30px,30px;*/
     text-transform: uppercase;
     margin: 20px 0 8px 0;
     height: 7vh;
@@ -358,8 +354,13 @@ h1::after {
         margin: -150px 0 0 0;
     }
 
-    
+    .input-group {
+        display: block;
+    }
 
-    
+    .input-group .form-control {
+    margin: auto;
+    }
+
 
 }
